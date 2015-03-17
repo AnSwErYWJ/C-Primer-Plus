@@ -19,5 +19,5 @@ int main()
 
 int check(int num, int bit)
 {
-	return (num>>bit)&1;//掩码
+	return (num>>bit)&1; //掩码
 }
