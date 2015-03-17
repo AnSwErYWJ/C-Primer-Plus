@@ -15,6 +15,6 @@ int btoi(const char * pb)
 {
 	int number=0;
 	while(*pb != '\0')
-		number=(number<<1)+*pb++-'0';//字符转化成数字。
+		number=(number<<1)+*pb++-'0';//利用ASCII码将字符转化成数字。
 	return number;
 }
