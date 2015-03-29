@@ -3,7 +3,7 @@ int main()
 {
     char ch,c='A';
     int i=0,k,j=0;
-    printf("Please enter the character:");
+    printf("Please enter the character: ");
     scanf("%c",&ch);
     k=ch-'A'+1;
     for(i=0; i<k; i++)
