@@ -8,11 +8,11 @@ int main()
     k=ch-'A'+1;
     for(i=0; i<k; i++)
     {
-        for(j=0; j<k-1-i; j++)
+        for(j=0; j<k-1-i; j++)//打印空格
             printf(" ");
-        for(j=0; j<i+1; j++)
+        for(j=0; j<i+1; j++)//顺序打印
             printf("%c",'A'+j);
-        for(j=i; j>=0; j--)
+        for(j=i; j>=0; j--)//降序打印
             printf("%c",'A'+j);
         printf("\n");
     }
